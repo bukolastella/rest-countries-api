@@ -1,0 +1,15 @@
+@mixin flex($pos) {
+  display: flex;
+  justify-content: $pos;
+  align-items: center;
+}
+
+header {
+  background-color: red;
+  width: 100%;
+  padding: 2rem;
+  @include flex(space-between);
+  div:nth-child(1) {
+    text-transform: capitalize;
+  }
+}

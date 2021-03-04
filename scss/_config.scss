@@ -2,8 +2,18 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 html {
   font-size: 62.5%;
 }
+body {
+  width: 100vw;
+}
+$darkBlue: hsl(209, 23%, 22%);
+$DarkBackground: hsl(207, 26%, 17%);
+$LightModeText: hsl(200, 15%, 8%);
+$LightModeInput: hsl(0, 0%, 52%);
+$LightBackground: hsl(0, 0%, 98%);
+$DarkModeTextLightModeElements: hsl(0, 0%, 100%);
