@@ -4,11 +4,12 @@
   align-items: center;
   padding: 2rem 5rem;
   //   height: calc(100vh - 1vh);
-  display: none;
+  // display: none;
   background-color: hsl(0, 0%, 98%);
 }
 .second_img {
   width: 45%;
+  object-fit: cover;
   img {
     width: 100%;
   }
@@ -73,6 +74,7 @@
     font-weight: 300;
     box-shadow: 0px 0px 5px #bdbbbb;
     text-decoration: none;
+    cursor: pointer;
     // margin: 1rem;
     border-radius: 5px;
     text-overflow: ellipsis;
