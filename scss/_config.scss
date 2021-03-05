@@ -9,11 +9,15 @@ html {
   font-size: 62.5%;
 }
 body {
-  width: 100vw;
+  width: 100%;
+  height: 100vh;
+  // background-color: red;
+  background-color: hsl(0, 0%, 98%);
 }
+
 $darkBlue: hsl(209, 23%, 22%);
 $DarkBackground: hsl(207, 26%, 17%);
 $LightModeText: hsl(200, 15%, 8%);
 $LightModeInput: hsl(0, 0%, 52%);
 $LightBackground: hsl(0, 0%, 98%);
-$DarkModeTextLightModeElements: hsl(0, 0%, 100%);
+$DarkLig: hsl(0, 0%, 100%);
