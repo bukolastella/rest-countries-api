@@ -21,6 +21,7 @@ const backgroundColor = [countries, first, select, second, body];
 dark.addEventListener("click", function () {
   const count = document.querySelectorAll(".count_container");
   const a = document.querySelector(".end_render").querySelectorAll("a");
+  // if (!a) return;
   color.forEach((ev) => {
     ev.classList.toggle("dark_mode");
   });
@@ -33,6 +34,7 @@ dark.addEventListener("click", function () {
 });
 //select
 const selectDisplay = function () {
+  // console.log("sksdnk");
   selectOpt.classList.toggle("hidden");
 };
 arrow.addEventListener("click", selectDisplay);
